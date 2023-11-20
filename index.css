@@ -1,0 +1,135 @@
+/*GERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', sans-serif;
+}
+
+:root {
+    --color-primary: #DE55BC;
+    --color-secondary: #B037D4;
+    --color-white: #fff;
+    --color-grey: #aaaaaa;
+    --gradiente: linear-gradient(135deg,#DE55BC,#B037D4);
+}
+
+body {
+    background-color: #1A1A1A;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+/* HEADER */
+header {
+    padding: 50px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: var(--color-grey);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+header a:hover {
+    color: var(--color-primary);
+    transform: scale(1.07);
+    transition: .2s;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav li {
+    display: inline-block;
+    padding: 10px 0 0 90px;
+}
+
+header .btn-contato button {
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #1A1A1A;
+    color: var(--color-primary);
+    text-align: center;
+    text-transform: uppercase;     
+    border-radius: 64px;
+    border: 2px solid;
+    padding: 10px 40px;  
+    cursor: pointer;
+}
+
+header .btn-contato button:hover {
+    background-image: var(--gradiente);
+    color: #1A1A1A;
+    border-color: #1A1A1A;  
+}
+
+header .logo {
+margin-top: 5px;
+}
+
+/* HERO */
+section.hero-section {
+    padding: 30px 2%;
+}
+
+section.hero-section .flex {
+    align-items: center;
+    justify-content: center; 
+    gap: 90px;   
+}
+
+.hero-section h1 {
+    color: var(--color-primary);
+    font-family: 'Press Start 2P';
+    font-size: 48px;
+    line-height: 110%;
+}
+
+.hero-section .txt-hero p {
+    color: var(--color-white);
+    font-size: 23px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 40px 0;
+}
+
+section .btn-contato button {
+    font-size: 22px;
+    font-weight: 700;
+    background-image: var(--gradiente);
+    color: #1A1A1A;
+    text-align: center;
+    text-transform: uppercase;     
+    border-radius: 64px;
+    border: 2px solid;
+    border-color: #1A1A1A;
+    padding: 10px 40px;  
+    cursor: pointer;
+    display: inline-block;
+}
+
+section .btn-contato button:hover {
+    transform: scale(1.07);
+    transition: .2s;  
+}
+
+
+
