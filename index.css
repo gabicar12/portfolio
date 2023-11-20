@@ -205,15 +205,15 @@ section.sobre .flex {
 }
 
 .sobre .txt-sobre .btn-social button {
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
     border: none;
     background-image: var(--gradiente);
-    font-size: 30px;
+    font-size: 27px;
     color: #1A1A1A;
     cursor: pointer;
-    margin: 20px 0 0 10px;    
+    margin: 20px 0 0 10px;     
 }
 
 .sobre .txt-sobre .btn-social button:hover {
@@ -222,7 +222,6 @@ section.sobre .flex {
 }
 
 /* PROJETOS */
-
 section.projetos {
     padding: 120px 4%;    
 }
@@ -270,3 +269,93 @@ section.projetos .flex {
 .overlay:hover {
     opacity: 1;
 }
+
+/*FORMULARIO*/
+section.formulario {
+    padding: 90px 4%;  
+    margin-top: 50px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 80px;
+}
+
+form input, form textarea {
+    width: 100%;
+    background-color: #2c2c2c;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: var(--color-white);
+    font-size: 20px;
+}
+
+form textarea {
+    resize: none;
+    height: 200px;
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input {
+    width: 200px;
+    background-image: var(--gradiente);
+    color: #1A1A1A;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 64px;
+}
+
+form .btn-enviar input:hover {
+    transform: scale(1.07);
+    transition: .2s;  
+}
+
+/* FOOTER */
+footer {
+    padding: 40px 4%; 
+}
+
+footer .flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-social button {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-image: var(--gradiente);
+    font-size: 27px;
+    color: #1A1A1A;
+    cursor: pointer;
+    margin: 20px 0 0 10px;    
+}
+
+.btn-social button:hover {
+    transform: scale(1.07);
+    transition: .2s;  
+}
+
+footer .line-footer {
+    padding: 40px;
+    border-bottom: 2px solid var(--color-primary);
+}
+
+footer .logo-footer:hover {
+    transform: scale(1.07);
+    transition: .2s;  
+    cursor: pointer;
+}
+
