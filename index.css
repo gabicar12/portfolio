@@ -359,3 +359,101 @@ footer .logo-footer:hover {
     cursor: pointer;
 }
 
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 1020px) {
+    /* CLASSES GERAIS */
+    .flex {
+        flex-direction: column;
+    }
+
+    .hero-section .flex {
+        flex-direction: column-reverse;
+    }
+
+    h2.titulo {
+        font-family: 'Press Start 2P';
+        font-size: 22px;
+        line-height: 35px;
+        text-align: center;    
+    }
+
+    /* HEADER */
+    .menu-desktop, .btn-contato{
+        display: none;        
+    }
+
+    header {
+        padding: 40px 8%;
+    }
+
+    /* HERO */
+    section.hero-section {
+        padding: 10px 6%;
+    }
+
+    section.hero-section .flex {
+        gap: 50px;
+    }
+
+    .hero-section h1 {
+        font-size: 25px;        
+    }
+
+    .hero-section .img-hero img {
+        width: 100%;
+    }
+
+    /* ESPECIALIDADES */
+    section.especialidades {
+        padding: 70px 8%;
+    }
+
+    section.especialidades .flex {
+        gap: 3px;
+    } 
+    
+    /* SOBRE */
+    .sobre .img-sobre img {
+        width: 100%;
+    }
+
+    section.sobre {
+        padding: 40px 8%;
+    }
+
+    .sobre .txt-sobre h2 span {       
+        margin-top: 10px;
+        line-height: 50px;
+    }
+    
+    .sobre .txt-sobre p {
+        text-align: left;
+    }
+
+    /* PROJETOS */   
+    section.projetos {
+        padding: 90px 8%;    
+    }
+    
+    .img-projeto {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    section.projetos .flex {
+        gap: 60px;
+    }
+
+    /*FORMULARIO*/
+    section.formulario {
+        padding: 70px 8%; 
+        margin-top: 10px;
+    }
+
+    /* FOOTER */
+    footer .flex {
+        gap: 30px;
+    }
+}
