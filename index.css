@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: #1A1A1A;
+    background-color: #111111;
     height: 100vh;
 }
 
@@ -160,7 +160,8 @@ margin-top: 5px;
 
 /* HERO */
 section.hero-section {
-    padding: 30px 2%;
+    padding: 90px 4%;
+    margin-bottom: 20px;
 }
 
 section.hero-section .flex {
@@ -206,7 +207,8 @@ section .btn-contato button:hover {
 
 /* ESPECIALIDADES */
 section.especialidades {
-    padding: 150px 4%;
+    padding: 100px 4%;
+    background-color: #1a1a1a;
 }
 
 section.especialidades .flex {
@@ -238,7 +240,7 @@ section.especialidades .flex {
 
 /* SOBRE */
 section.sobre {
-    padding: 70px 4%;
+    padding: 100px 4%;
 }
 
 section.sobre .flex {
@@ -289,7 +291,8 @@ section.sobre .flex {
 
 /* PROJETOS */
 section.projetos {
-    padding: 120px 4%;    
+    padding: 100px 4%;    
+    background-color: #1A1A1A;
 }
 
 section.projetos .flex {
@@ -338,8 +341,7 @@ section.projetos .flex {
 
 /*FORMULARIO*/
 section.formulario {
-    padding: 90px 4%;  
-    margin-top: 50px;
+    padding: 120px 4%;  
 }
 
 form {
@@ -389,7 +391,7 @@ form .btn-enviar input:hover {
 
 /* FOOTER */
 footer {
-    padding: 40px 4%; 
+    padding: 10px 4%; 
 }
 
 footer .flex {
@@ -490,7 +492,7 @@ footer .logo-footer:hover {
     }
 
     section.sobre {
-        padding: 40px 8%;
+        padding: 70px 8%;
     }
 
     .sobre .txt-sobre h2 span {       
@@ -504,7 +506,7 @@ footer .logo-footer:hover {
 
     /* PROJETOS */   
     section.projetos {
-        padding: 90px 8%;    
+        padding: 70px 8%;    
     }
     
     .img-projeto {
@@ -520,7 +522,6 @@ footer .logo-footer:hover {
     /*FORMULARIO*/
     section.formulario {
         padding: 70px 8%; 
-        margin-top: 10px;
     }
 
     /* FOOTER */
